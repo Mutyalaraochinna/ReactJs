@@ -5,6 +5,71 @@ ReactJs Git Url - https://github.com/toolsknowledge/ReactJSTS-7AM
 01-03-21 - https://us02web.zoom.us/rec/share/KYVm382k6MJvLwoP8q2YEAx8B46FE7_qeT4fjsaGHBN4WOs6iyQfNXkJjVGV73to.er3kznm3KIELAvpo
 
 
+25/02/2021
+==========
+React is Library
+React is the javascript library
+Reactjs realeased by Facebook
+is used to develop web application
+
+1)Introduction to ReactJs
+	=> What is ReactJs
+	=> History of ReactJs
+	=> Advantages of ReactJs
+	=> Disadvantages of ReactJs
+	
+2) Environmental Setup for ReactJs
+
+3)Create the First React Application
+
+4) Coponents in ReactJs
+    - Functional component (Stateless component)
+    - Class Component      (Statefull component)
+
+Reusable portion of application is called as component
+
+5) Component Communications
+   - props
+   - State
+
+6) Forms with Validations
+
+7) MERN Stack Development
+	M -MongoDB
+	E - ExpressJs
+	R - ReactJs
+	N - NodeJs
+
+8) Life Cycle Hooks of Components
+
+9) State Management in ReactJs
+
+	=> Redux
+	=> Saga
+	=> Thunk
+	
+10) Unit Test Cases (JEST)
+
+11) Ecommerce Application (End to End Development)
+
+12)Deployments
+	Heroku Deployment
+	Aws Deployment
+	
+
+26-02-21
+========
+
+We can build web applications in two ways
+1) JSX -  JavaScript+XML
+		JSX not follow OOPS features
+2) TypeScript - Programming language
+		Given by Microsoft
+		it will follow the OOPS features
+
+
+	
+
 echo "# ReactJs" >> README.md
 git init
 git add README.md
