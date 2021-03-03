@@ -1,189 +1,84 @@
-26-02-2021
+ReactJs Git Url - https://github.com/toolsknowledge/ReactJSTS-7AM
+
+25/02/2021
 ==========
-						TypeScript
-						==========
+React is Library
+React is the javascript library
+Reactjs realeased by Facebook
+is used to develop web application
 
-	- TypeScript is the Programming Language.
-
-	- TypeScript Given by Microsoft.
-
-	- Superset of JavaScript called as TypeScript.
-
-	- TypeScript follows the OOPS.
-
-	- TypeScript used to build the Angular, React, Node, and VueJS......
-
-	- in general, we will execute web applications in browsers.
-
-		Ex.
-			Google Chrome
-
-			Mozilla
-
-			Netscape Navigator
-
-			Edge
-
-			-----
-			-----
-	- browsers won't understands the TypeScript.
-
-	- so, as a React Developer, we must convert TypeScript to Equalent JavaScript.
-
-	- conversion of TypeScript to Equalent JavaScript called as Transpilation.
-
-	- "tsc" is the tool, used to perform the Transpilation.
-
-	- "tsc" stands for TypeScript Compiler.
-
-	- we will save the TypeScript files with ".ts" extension.
+1)Introduction to ReactJs
+	=> What is ReactJs
+	=> History of ReactJs
+	=> Advantages of ReactJs
+	=> Disadvantages of ReactJs
 	
-	- in general, we will use Visual Studio Code IDE, to develop web applications.
+2) Environmental Setup for ReactJs
+
+3)Create the First React Application
+
+4) Coponents in ReactJs
+    - Functional component (Stateless component)
+    - Class Component      (Statefull component)
+
+Reusable portion of application is called as component
+
+5) Component Communications
+   - props
+   - State
+
+6) Forms with Validations
+
+7) MERN Stack Development
+	M -MongoDB
+	E - ExpressJs
+	R - ReactJs
+	N - NodeJs
+
+8) Life Cycle Hooks of Components
+
+9) State Management in ReactJs
+
+	=> Redux
+	=> Saga
+	=> Thunk
 	
-	- Visual Studio Code IDE, is the Open Source IDE, Provided by Microsoft.
+10) Unit Test Cases (JEST)
 
-Software Installations
-======================
-1) download and install NodeJS
+11) Ecommerce Application (End to End Development)
 
-		- NodeJS is the server side scripting language.
-
-		- NodeJS Containes following tools.
-
-			1) npm
-
-			2) node
-
-		- npm stands for "node packaging manager".
-
-		- npm helps to install the TypeScript Software.
-		
-		- node also tool, present in "NodeJS".
-
-		- node tool, helps to execute the "JavaScript".
-
-website : https://nodejs.org/en/
-
-file    : node-v15.10.0-x64.msi
-
-		msi stands for microsoft installer
-
-
-
-2) install TypeScript
-
-	- we will install TypeScript by using following command.
-
-	> npm install -g typescript
+12)Deployments
+	Heroku Deployment
+	Aws Deployment
 	
-	- npm  stands for node packaging manager.
 
-	- "-g" stands for global installation.
+26-02-21
+========
+
+We can build web applications in two ways
+1) JSX -  JavaScript+XML
+		JSX not follow OOPS features
+2) TypeScript - Programming language
+		Given by Microsoft
+		it will follow the OOPS features
+
+
 	
-	Note : current version of TypeScript is 4.2.2
 
+echo "# ReactJs" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Mutyalaraochinna/ReactJs.git
+git push -u origin main
+…or push an existing repository from the command line
+git remote add origin https://github.com/Mutyalaraochinna/ReactJs.git
+git branch -M main
+git push -u origin main
 
-3) install Visual Studio Code
-
-	- "Visual Studio Code" is the IDE, used to develop the web applications like
-		Angular
-
-		React
-
-		VueJS
-
-		JavaScript
-
-		TypeScript
-
-		----
-		----
-		----
-	- "Visual Studio Code" IDE Released by Microsoft.
-
-
-website : https://code.visualstudio.com/docs/?dv=win
-
-file    : VSCodeUserSetup-x64-1.53.2.exe
-
-
-
-
-27-02-2021
-
-Variables
-=========
-    - variables are used to store the data.
-
-            Ex.
-                    string
-                    number
-                    boolean
-                    arrays
-                    objects
-
-    - variables should contain a-z , A-Z, $, and _, 0-9
-
-    - variables should not start with "digits".
-
-    - we will declare variables by using 
-
-                "var"
-
-                "let"     (ES6)
-
-                or
-
-                "const"    (ES6)
-
-    Syntax:
-
-       var/let/const variablename:datatype = value;
-
-
-01-Mar-2021
-===========
-
-classes
--------
-	collection of "variables" and "functions" called as class.
-
-	we can create the classes by using "class" keyword.
-
-	we can define "constructors" with the help of "constructor" keyword.
-
-	typescript supports the following modifiers.
-
-			@public
-
-			@private
-
-			@protected
-
-	recomended modifier for variables is "private"
-
-	recomended mobdifier for functions is "public"
-
-	we can create the object to the classes by using "new" keyword.
-
-	we can refer current class members by using "this" keyword.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+25-02-21 - https://us02web.zoom.us/rec/share/EUPSn-SCxvYdbOFv-GB16xacAy78Twqtj07cXPJUstevalQh5GjUe88KqaW6yDAx.D7WOLA-XBE6D5iW7
+26-02-21 - https://us02web.zoom.us/rec/share/CDYit3gyMfraWWT8XZm1WkB_z_vzQdQZ30llS3By-OZEmS8-scIhFjkNYCfJVYrM.-hOAhJq5uV4OKP5Y
+27-02-21 - https://us02web.zoom.us/rec/share/0tcT_--QmC9vSYN_OpUvzIE9RwZRrB0YkZZ_45_Ol6mN_iSQd4_qD6ylBn1Tjhc.3rVdvklUTgTRmazh
+01-03-21 - https://us02web.zoom.us/rec/share/KYVm382k6MJvLwoP8q2YEAx8B46FE7_qeT4fjsaGHBN4WOs6iyQfNXkJjVGV73to.er3kznm3KIELAvpo
+02-03-21 - https://us02web.zoom.us/rec/share/gqIavYLOui7XcprUdrKRMYEYQ1tBcQoHkLQgjDOdlOmew1xfFa1umNc12QV6tZ4u.BNNGFL7F_5i9GLR1
