@@ -1,0 +1,189 @@
+26-02-2021
+==========
+						TypeScript
+						==========
+
+	- TypeScript is the Programming Language.
+
+	- TypeScript Given by Microsoft.
+
+	- Superset of JavaScript called as TypeScript.
+
+	- TypeScript follows the OOPS.
+
+	- TypeScript used to build the Angular, React, Node, and VueJS......
+
+	- in general, we will execute web applications in browsers.
+
+		Ex.
+			Google Chrome
+
+			Mozilla
+
+			Netscape Navigator
+
+			Edge
+
+			-----
+			-----
+	- browsers won't understands the TypeScript.
+
+	- so, as a React Developer, we must convert TypeScript to Equalent JavaScript.
+
+	- conversion of TypeScript to Equalent JavaScript called as Transpilation.
+
+	- "tsc" is the tool, used to perform the Transpilation.
+
+	- "tsc" stands for TypeScript Compiler.
+
+	- we will save the TypeScript files with ".ts" extension.
+	
+	- in general, we will use Visual Studio Code IDE, to develop web applications.
+	
+	- Visual Studio Code IDE, is the Open Source IDE, Provided by Microsoft.
+
+Software Installations
+======================
+1) download and install NodeJS
+
+		- NodeJS is the server side scripting language.
+
+		- NodeJS Containes following tools.
+
+			1) npm
+
+			2) node
+
+		- npm stands for "node packaging manager".
+
+		- npm helps to install the TypeScript Software.
+		
+		- node also tool, present in "NodeJS".
+
+		- node tool, helps to execute the "JavaScript".
+
+website : https://nodejs.org/en/
+
+file    : node-v15.10.0-x64.msi
+
+		msi stands for microsoft installer
+
+
+
+2) install TypeScript
+
+	- we will install TypeScript by using following command.
+
+	> npm install -g typescript
+	
+	- npm  stands for node packaging manager.
+
+	- "-g" stands for global installation.
+	
+	Note : current version of TypeScript is 4.2.2
+
+
+3) install Visual Studio Code
+
+	- "Visual Studio Code" is the IDE, used to develop the web applications like
+		Angular
+
+		React
+
+		VueJS
+
+		JavaScript
+
+		TypeScript
+
+		----
+		----
+		----
+	- "Visual Studio Code" IDE Released by Microsoft.
+
+
+website : https://code.visualstudio.com/docs/?dv=win
+
+file    : VSCodeUserSetup-x64-1.53.2.exe
+
+
+
+
+27-02-2021
+
+Variables
+=========
+    - variables are used to store the data.
+
+            Ex.
+                    string
+                    number
+                    boolean
+                    arrays
+                    objects
+
+    - variables should contain a-z , A-Z, $, and _, 0-9
+
+    - variables should not start with "digits".
+
+    - we will declare variables by using 
+
+                "var"
+
+                "let"     (ES6)
+
+                or
+
+                "const"    (ES6)
+
+    Syntax:
+
+       var/let/const variablename:datatype = value;
+
+
+01-Mar-2021
+===========
+
+classes
+-------
+	collection of "variables" and "functions" called as class.
+
+	we can create the classes by using "class" keyword.
+
+	we can define "constructors" with the help of "constructor" keyword.
+
+	typescript supports the following modifiers.
+
+			@public
+
+			@private
+
+			@protected
+
+	recomended modifier for variables is "private"
+
+	recomended mobdifier for functions is "public"
+
+	we can create the object to the classes by using "new" keyword.
+
+	we can refer current class members by using "this" keyword.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
