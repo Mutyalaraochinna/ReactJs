@@ -3,10 +3,10 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import First from "./First";
+import RecordsOne from "./RecordsOne";
 ReactDOM.render(
   <React.StrictMode>
-    <First />
+    <RecordsOne />
   </React.StrictMode>,
   document.getElementById('root')
 );

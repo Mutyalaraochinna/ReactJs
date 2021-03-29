@@ -18,7 +18,7 @@ class First extends React.Component<Iprops, Istate>{
             key1 : "ReactJS",
             key2 : 50000,
             key3 : true,
-            key4 : {'key' : 'Welcome'},
+            key4 : {'key' : 'Props Example'},
             key5 : [
                 {'p_id' : 100, 'p_name' : 'Chinna', 'p_cost' : 100000},
                 {'p_id' : 200, 'p_name' : 'Chinna', 'p_cost' : 200000},
