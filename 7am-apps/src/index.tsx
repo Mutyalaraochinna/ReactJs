@@ -1,12 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
-import RecordsOne from "./RecordsOne";
+// import RecordsOne from "./RecordsOne";
+// import Parent from "./Parent";
+import ParentOne from "./ParentOne";
+// import ChildOne from "./ChildOne";
+
 ReactDOM.render(
   <React.StrictMode>
-    <RecordsOne />
+    <ParentOne />
   </React.StrictMode>,
   document.getElementById('root')
 );
