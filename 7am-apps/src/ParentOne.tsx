@@ -11,7 +11,7 @@ interface IProps{
     key6 : string;
     
 }
-
+    
 class ParentOne extends React.Component<any,IProps, IState>{
     constructor(props:IProps){
         super(props);

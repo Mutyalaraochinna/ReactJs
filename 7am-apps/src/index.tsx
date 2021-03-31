@@ -5,12 +5,14 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 // import RecordsOne from "./RecordsOne";
 // import Parent from "./Parent";
-import ParentOne from "./ParentOne";
+// import ParentOne from "./ParentOne";
 // import ChildOne from "./ChildOne";
+// import Parent from "./31-03-21/Parent"
+import DemoOne from "./31-03-21/DemoOne"
 
 ReactDOM.render(
   <React.StrictMode>
-    <ParentOne />
+    <DemoOne /> 
   </React.StrictMode>,
   document.getElementById('root')
 );
