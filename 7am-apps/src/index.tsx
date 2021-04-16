@@ -9,11 +9,11 @@ import reportWebVitals from './reportWebVitals';
 // import ChildOne from "./ChildOne";
 // import Parent from "./31-03-21/Parent"
 // import DemoOne from "./31-03-21/DemoOne"
-import Login from "./05-04-2021/Login"
+import SignUp from "./05-04-2021/SignUp"
 
 ReactDOM.render(
   <React.StrictMode>
-    <Login /> 
+    <SignUp /> 
   </React.StrictMode>,
   document.getElementById('root')
 );
