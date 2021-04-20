@@ -457,3 +457,11 @@ step 10.
             public
               index.html
     **************************************
+
+spa-demo2
+ src
+  App.tsx
+   Screens
+    screen1.tsx
+    screen2.tsx
+index.tsx
