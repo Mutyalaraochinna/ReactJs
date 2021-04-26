@@ -4,6 +4,7 @@ import {BrowserRouter as Router, NavLink, Route} from "react-router-dom";
 import HomeScreen from "./screens/HomeScreen";
 import ProductScreen from "./screens/ProductScreen";
 import CartScreen from "./screens/CartScreen";
+import FashionScreen from "./screens/FashionScreen";
 
 
 interface IState{};
@@ -31,6 +32,7 @@ class  App extends Component<IProps, IState> {
           <Route path="/home" component={HomeScreen} exact={true} strict></Route>
           <Route path="/product" component={ProductScreen} exact={true} strict></Route>
           <Route path="/cart" component={CartScreen} exact={true} strict></Route>
+          <Route path="/home/fashion" component={FashionScreen} exact={true} strict></Route>
         </Router>
       </React.Fragment>
     )

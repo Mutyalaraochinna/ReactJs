@@ -22,12 +22,7 @@ class  HomeScreen extends Component<IProps, IState> {
         return(
             <React.Fragment>
                 <h1 style={{color:'red'}}>{this.state.msg}</h1>
-                <NavLink to="/home/fashion" activeStyle={{color:"red"}} exact={true} strict style={{marginRight:100}}>Fashion</NavLink>
-                <br/>
-                <br/>
-                <br/>
-
-                <Route path="/home/fashion" component={FashionScreen} exact={true} strict></Route>
+                <NavLink to="/home/fashion" activeStyle={{color:"red"}} exact={true} strict >Fashion</NavLink>
             </React.Fragment>
         )
     }
