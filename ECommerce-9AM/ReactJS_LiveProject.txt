@@ -1,0 +1,216 @@
+Project Domain		:	ECommerce
+
+Duration : 30 days   (30 - 40 days)
+
+1) MERN Stack Development
+
+	M - MongoDB
+
+	E - ExpressJS
+
+	R - ReactJS With TypeScript
+
+	N - NodeJS
+
+
+2) CSS3 (Flex Box)
+
+
+3) Modules in ECommerce Project	
+
+	=> Registration Module
+
+	=> Signin Module
+
+	=> Total Products Module
+
+	=> Details Products Module
+
+	=> JWT Authentication Secuirity
+
+		JSON Web Token
+
+	=> bcryptjs
+
+
+4) State Management
+
+	Redux Middleware
+
+	Saga MiddleWare
+
+	Thunk Middleware
+
+
+
+5) Cloud Deployment
+
+	AWS Deployment
+
+	Amazon Web Services Deployment
+
+
+6) CI / CD Process
+
+
+	Continuos Integration & Continuos Deployment
+
+
+
+7) GitHub
+
+
+
+8) Payment Gateways Integration
+
+	=> Paypal Integration
+
+	=> Stripe Payment Integration
+
+
+9) Debugging
+
+
+10) Portfolio
+
+
+														Module-1
+														--------
+
+
+1) download the images.
+
+	Ex.
+		p1.png
+
+		p2.png
+
+		p3.png
+
+		p4.png
+
+		p5.png
+
+		p6.png
+
+
+2) deploy images into s3 bucket    (AWS)
+
+
+3) save images path to mongodb database.
+
+
+4) develop rest api by using ExpressJS (NodeJS).
+
+
+5) consume above rest api call by using axios module in ReactJS
+
+											**** Deploy above images to "s3" Bucket ****
+	URL : https://aws.amazon.com/
+
+	1) https://ecommercem.s3.ap-south-1.amazonaws.com/p1.jpg
+
+	2) https://ecommercem.s3.ap-south-1.amazonaws.com/p2.jpg
+
+	3) https://ecommercem.s3.ap-south-1.amazonaws.com/p3.jpg
+
+	4) https://ecommercem.s3.ap-south-1.amazonaws.com/p4.jpg
+
+	5) https://ecommercem.s3.ap-south-1.amazonaws.com/p5.jpg
+
+	6) https://ecommercem.s3.ap-south-1.amazonaws.com/p6.jpg
+
+
+									**** store above paths into MongoDB database *****
+
+
+URL : https://account.mongodb.com/account/login
+
+Name of the database : ecommerce-9am
+
+name of the collection : products
+
+user name : admin
+
+password : admin
+
+Connection URL : mongodb+srv://admin:admin@cluster0.jgnmk.mongodb.net/ecommerce-9am?retryWrites=true&w=majority
+Connection URL : mongodb+srv://admin:admin@cluster0.3sghp.mongodb.net/ecommercem?retryWrites=true&w=majority
+
+
+							******** develop rest api by using NodeJS *********
+
+step 1.
+	create the directory (folder)
+
+	Ex.
+		 server
+
+
+step 2.
+	switch to server directory
+
+	> cd server
+
+
+step 3.
+	download node modules
+
+	1) bcryptjs
+		- used to encrypt the passwords
+
+		- encrypted passwords only we should store in database.
+
+	2) express
+
+		- used to develop the rest services.
+
+		Ex.
+			GET
+			POST
+			PUT
+			DELETE
+			----
+			----
+			----
+
+	3) express-async-handler
+
+		- used to handle the rest api calls asynchronously.
+
+	4) body-parser
+
+		- used to receive the data from client application.
+
+	5) cors
+
+		- cors module used to enable the cors policy.
+
+	6) jsonwebtoken
+
+		- used to generate the tokens.
+
+		- in general, we will use these tokens for "token based authentication"
+
+	7) mongodb
+
+		 - mongodb module used to connect to "mongodb" database without "schema".
+
+	8) mongoose
+
+		- mongoose library used to connect to mongodb database with schema (rules and regulations)
+
+	9) dotenv
+
+		- used to configure the environmental variables related to nodejs server
+
+
+	> yarn add bcryptjs express express-async-handler body-parser jsonwebtoken cors mongodb mongoose dotenv --save
+
+
+
+step 4.
+	implement the node server
+
+	Ex.
+		server.js
