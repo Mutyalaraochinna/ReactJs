@@ -59,4 +59,4 @@ app.get("/api/products",express_async_handler(async(req,res)=>{
 let port = process.env.PORT || 8080;
 app.listen(port,()=>{
     console.log("server started");
-})
+});

@@ -214,3 +214,79 @@ step 4.
 
 	Ex.
 		server.js
+
+
+								***** integrate rest api call to reactjs *****
+
+
+step 1.
+	create the react application
+
+		> npx create-react-app ecommerce --template typescript
+
+			where "ecommerce" is the name of the react application
+
+step 2.
+	switch to react application
+
+		> cd ecommerce
+
+step 3.
+	download the libraries
+
+		=> axios @types/axios
+
+		=> redux @types/redux
+
+		=> react-redux  @types/react-redux
+
+		=> redux-thunk  @types/redux-thunk
+
+		=> react-router-dom @types/react-router-dom
+
+
+		> yarn add axios @types/axios redux @types/redux react-redux @types/react-redux redux-thunk @types/redux-thunk react-router-dom @types/react-router-dom --save
+
+
+step 4.
+	implement the thunk application
+
+		=> create the model
+
+		=> create the types
+
+		=> create the actions
+
+		=> create the reducer
+
+		=> create the store
+
+		=> dispatch & subscription operation
+
+
+create the model
+----------------
+
+****************************************
+ecommerce
+		src
+		   model
+		      Product.tsx
+***************************************
+
+	finally "Product" model is ready
+
+
+
+create the types
+----------------
+
+*****************************************
+ecommerce
+		src
+		  app
+		    types
+			  ProductActionTypes.tsx
+*****************************************
+
+		finally "ProductsActionTypes" are ready.
