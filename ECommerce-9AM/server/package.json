@@ -1,8 +1,14 @@
 {
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "@material-ui/core": "^4.11.3",
-    "@types/react-router-dom": "^5.1.7",
-    "axios": "^0.21.1",
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
@@ -11,7 +17,6 @@
     "express-async-handler": "^1.1.4",
     "jsonwebtoken": "^8.5.1",
     "mongodb": "^3.6.7",
-    "mongoose": "^5.12.10",
-    "redux": "^4.1.0"
+    "mongoose": "^5.12.10"
   }
 }
