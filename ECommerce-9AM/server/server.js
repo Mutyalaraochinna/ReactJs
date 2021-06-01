@@ -55,6 +55,16 @@ app.get("/api/products",express_async_handler(async(req,res)=>{
     res.send(products);
 }));
 
+app.get("/api/products/:id", express_async_handler(async(req,res)=>{
+    const product = await Product.findOne({"_id":new mongodb.ObjectID(req.params.id)});
+    if(product){
+        res.status(200).send(product);
+    }else{
+        res.status(400).send({"message":"no product available"});
+    }
+}));
+
+
 //assign the port number
 let port = process.env.PORT || 8080;
 app.listen(port,()=>{

@@ -290,3 +290,93 @@ ecommerce
 *****************************************
 
 		finally "ProductsActionTypes" are ready.
+
+		create the store
+----------------
+		index.tsx
+
+		finally rootReducer is ready.
+
+		"products" is the key, associated with productReducer.
+
+
+perform the dispatch and subscription operation
+-----------------------------------------------
+
+********************************************************
+ecommerce
+       src
+	     screens
+		   HomeScreen.tsx
+********************************************************
+
+
+									***** create the single page application *****
+
+	- in our "ecommerce" project, "App" component is "master" component.
+
+	- we want to make "HomeScreen" as default component in single page application.
+
+
+									***** create the utility components *****
+
+	***************************************
+	ecommerce
+	       src
+		     components
+			    MessageBox.tsx
+				LoadingBox.tsx
+				Rating.tsx
+	***************************************
+
+			- "MessageBox.tsx" used to display the error messages.
+
+			- "LoadingBox.tsx" used to display the loading bar  (spinner) (progress bar)
+
+			- "Rating.tsx" used to show the rating bar
+
+
+											***** Main Screen Design *****
+
+App.tsx
+-------
+
+												Module2 implementation
+												-----------------------
+
+01/06/2021
+----------
+
+1) implement the rest api
+
+	=> /api/products/:id
+
+
+
+2) navigate from HomeScreen to ProductScreen with "_id"
+
+
+3) implement the state management in ProductScreen
+
+			Redux
+
+			Thunk
+
+	*************************************
+	=> modal
+			Product.tsx
+
+	=> types
+			detail.types.tsx
+
+	=> actions
+			detail.action.tsx
+
+	=> reducer
+			detail.reducer.tsx
+
+	=> store
+			index.tsx
+
+	=> Component
+			"ProductScreen"

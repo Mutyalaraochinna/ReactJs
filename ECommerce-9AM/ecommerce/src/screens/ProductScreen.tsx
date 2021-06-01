@@ -1,47 +1,29 @@
 import React, { Component } from "react";
-import { connect } from "react-redux";
-import getProducts from "../actions/ProductsActions";
+import { match as Match, NavLink } from "react-router-dom";
 
 interface IState{}
 
 interface IProps{
-    getProducts_fn : any;
-    result : any;
+    match : Match<paramRoutes>;
 }
 
-class ProductsScreen extends Component<IProps,IState>{
-     constructor(props:IProps){
-         super(props);
-     }
-
-     componentDidMount(){
-        this.props.getProducts_fn();
-     };
-
-     render(){
-         const { loading,products,error } = this.props.result;
-         return(
-             <React.Fragment>
-                 {JSON.stringify(loading)}....{JSON.stringify(products)}....{error}
-             </React.Fragment>
-         )
-     }
-};
+interface paramRoutes{
+    id:any;
+}
 
 
-const receive = (state:any)=>{
-    return{
-        result : state.products
+class ProductScreen extends Component<IProps,IState>{
+    constructor(props:IProps){
+        super(props);
+    }
+    render(){
+        return(
+            <React.Fragment>
+                <NavLink to="/" className="back_screen">back to home <i className="fa fa-home"></i></NavLink>
+                <h1>{this.props.match.params.id}</h1>
+            </React.Fragment>
+        )
     }
 };
 
-
-
-const send = (dispatch:any)=>{
-    return{
-        getProducts_fn : ()=>{ dispatch(getProducts()) }
-    }
-};
-
-
-export default connect(receive,send)(ProductsScreen);
+export default ProductScreen;
